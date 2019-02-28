@@ -1,0 +1,23 @@
+{
+  "name": "try_datakobo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitbook": "gitbook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nersonu/try_datakobo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nersonu/try_datakobo/issues"
+  },
+  "homepage": "https://github.com/nersonu/try_datakobo#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
