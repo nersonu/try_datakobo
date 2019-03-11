@@ -14,3 +14,6 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# for test codes & test scripts by nersonu (2019/3/2)
+test_scripts/*
