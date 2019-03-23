@@ -44,7 +44,7 @@ $ less car.csv
 行数が多いファイルでは特に重宝することでしょう．
 
 また，先頭の行から何行閲覧したい，とはっきりしたものがあれば，`head`コマンドを使うと良いでしょう．
-例えば，先頭から3行だけ見たい場合は次のようにします．
+例えば，先頭から3行だけ見たい場合は`-n`オプションを用いて次のようにします．
 
 ```sh
 $ head -n 3 car.csv
@@ -199,7 +199,7 @@ vhigh,2
 今回の例で用いるファイルを持ってきます．
 
 ```sh
-$ wget {url}
+$ wget https://raw.githubusercontent.com/nersonu/try_datakobo/master/chapter_preparation/data/shift_jis_sample.txt
 ```
 
 さて，この*shift\_jis\_sample.txt*は`cat`や`less`で中身を閲覧することができるでしょうか．
