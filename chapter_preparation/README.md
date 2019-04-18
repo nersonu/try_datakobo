@@ -6,3 +6,5 @@
   - 本ドキュメントで必要なPythonパッケージの導入を行います．
 - [基本的なコマンドラインツール](chapter_preparation/command_line_tools.md)
   - データを扱うにあたっての基本的なコマンドラインツールを紹介します．
+- [リモートでJupyter Notebookを使う](chapter_preparation/installing_jupyter.md)
+  - リモート環境において，手元のマシンでJupyter Notebookを使う方法を解説します．
