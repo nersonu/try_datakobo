@@ -53,11 +53,7 @@ $ git clone https://github.com/Linuxbrew/brew.git
 setenv HOMEBREW_CACHE $HOME/local/brew/cache
 setenv PATH $HOME/local/brew/bin:${PATH}
 setenv PATH $HOME/local/brew/sbin:${PATH}
-setenv LD_LIBRARY_PATH $HOME/local/brew/lib:${LD_LIBRARY_PATH}
 ```
-
-これを書く前にコマンドラインで`printenv LD_LIBRARY_PATH`を実行してみてください．
-もし何も出力がなければ上記の`LD_LIBRARY_PATH`の行の末尾にある`:${LD_LIBRARY_PATH}`は省略する必要があります．
 
 設定を反映させ`brew doctor`で以下の出力を得られれば，Linuxbrewの導入は完了です．
 
@@ -66,6 +62,8 @@ $ source ~/.tcshrc
 $ brew doctor
 Your system is ready to brew
 ```
+
+影響のないWarningは見逃しても構いません．
 
 ## Python3の導入
 
