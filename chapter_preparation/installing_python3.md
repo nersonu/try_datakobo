@@ -68,10 +68,14 @@ Your system is ready to brew
 ## Python3の導入
 
 Homebrewを用いてPython3をインストールします．
-`brew install {インストールしたいパッケージ名}`とするだけです．
+基本的には`brew install {インストールしたいパッケージ名}`とするだけです．
+
+今回はのちにプロットした画像を表示させるための依存関係を解決するために，Python3のインストール前にtcl-tkというパッケージをインストールします．
+**必ず**Python3のインストール前に行ってください．
 
 ```sh
 $ brew update
+$ brew install tcl-tk
 $ brew install python3
 ```
 
